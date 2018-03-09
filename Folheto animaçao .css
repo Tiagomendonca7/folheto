@@ -1,0 +1,29 @@
+.fundo-circulo-branco{
+    animation-name: circulo;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circulo {
+    0%{background-color:white;}
+    25%{background-color: lightblue;}
+    50%{background-color: salmon;}
+    75%{background-color:yellow;}
+    100%{background-color: lightcoral;}
+}
+
+.tower-power-titulo {
+    animation-name: titulo;
+    animation-duration: 100ms;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titulo{
+    0%{color: #040F1C;}
+    25%{color: white;}
+    50‰{color:  #040F1C;}
+    75%{color: white;}
+    100%{color: #040F1C;}
+}
