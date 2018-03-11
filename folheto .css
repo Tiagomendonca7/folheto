@@ -77,22 +77,22 @@ body{
 /*Titulo*/
 
 .titulo-grande{
-    border: 4px solid white;
-    border-right: 0px;
-    position: absolute;
-    width: 50%;
+    position: relative;
+    width: 70%;
     height: 700px;
-    top: 20px;
+    top: 40px;
     left: 55px;
 }
 
 .tower-power-like{
-    font-size: 100px;
+    border: 4px solid white;
+    border-right: 0px;
+    font-size: 90px;
     text-align: center;
     font-family: 'Barrio';
-    padding: 70px;
+    padding: 80px;
     margin: 10px;
-    color: white;t
+    color: white;
     
         
 }
