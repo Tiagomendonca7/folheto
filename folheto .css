@@ -1,78 +1,62 @@
-html{
-    max-height: 2144px;
-    max-width: 1440px;
-    margin: 0px;
-}
-
-body{
-    width: 1440px;
-    height: 2144px;
+html, body {
+    margin: 0;
+    min-height: 100vh;
 }
 
 /*fundo*/
 
-.ocre{
+.cartaz {
+    position: relative;
+    height: 100vh;
+}
+
+.cartaz-parte-esquerda{
     width: 50%;
-    height: 750px;
-    background-color:#F7B32B;
+    height: 100%;
+    
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
-.azul{
+
+.cartaz-parte-direita {
     width: 50%;
-    height: 750px;
-    background-color: #040F1C;
+    height: 100%;
     position: absolute;
     top: 0px;
     right: 0px;
 }
+
+.azul {
+    background-color: #040F1C;
+}
+
+.ocre {
+    background-color:#F7B32B;
+}
+
+
 
 .fundo-circulo-branco{
     background-color: white;
     border-radius: 150px;
     width: 300px;
     height: 300px;
-    position: absolute;
-    top: 220px;
-    left: 560px;
-}
-
-.moldura-img{
-    width:500px;
-    height: 930px;
-    position: absolute;
-    top: 0px;
-    left:463px;
+    top: 50%;
+    left: 50%;
+    
 }
 
 .imagem-do-fundo{
-    width: 100%;
-    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
 }
 
-.rectangulo-parte-1{
-    border: 3px solid white;
-    border-right: 0px;
-    border-bottom: 0px;
-    width: 400px;
-    height: 30px;
-    position: absolute;
-    right: 0px;
-    top: 180px
-}
 
-.rectangulo-parte-2{
-    border: 3px solid white;
-    border-right: 0px;
-    border-top: 0px;
-    width: 400px;
-    height: 30px;
-    position: absolute;
-    right: 0px;
-    bottom: 190px
-}
 
 /*Titulo*/
 
@@ -118,20 +102,26 @@ body{
 
 /*informaçao*/
 
-.informacao-tower-power{
+.rectangulo-parte-1{
+    border: 3px solid white;
+    border-right: 0px;
+    border-bottom: 0px;
     width: 400px;
-    height: 330px;
-    position: absolute;
-    right: 130px;
-    top: 200px;
-
+    height: 30px;
 }
 
-.texto-tower-power{
+.rectangulo-parte-2{
+    border: 3px solid white;
+    border-right: 0px;
+    border-top: 0px;
+    width: 400px;
+    height: 30px;
+}
+
+.informacao-texto{
+    width: 500px;
     color: white;
     text-align: center;
-    right: 40px;
-    bottom: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 14.9px;
 }
